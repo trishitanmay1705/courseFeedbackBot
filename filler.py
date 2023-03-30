@@ -21,7 +21,7 @@ def on_press(key):
         paused = not paused
 
 def main():        
-    print("Click on the first field")
+    print("Click on the first field and press shift")
     time.sleep(5)
     while(True):
         for i in range(14):
@@ -31,7 +31,7 @@ def main():
                 pressTab()
 
         if not paused:
-            keyboard.type('Very good')
+            keyboard.type('Excellent')
             skipTwo()
 
 
